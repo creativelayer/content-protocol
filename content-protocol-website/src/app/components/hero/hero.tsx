@@ -17,21 +17,23 @@ export default function Hero() {
         <h1 className="text-4xl">Creative Layer</h1>
       </div>
 
-      <div className="flex flex-col gap-y-4 items-center">
-        <p className="text-8xl text-center">
+      <div className="flex flex-col gap-y-4 items-center ">
+        <h2 className="text-8xl text-center font-medium">
           Programmable Content.
-        </p>
-        <p className="text-8xl text-center">
+        </h2>
+
+        <h2 className="text-8xl text-center font-medium">
           Gamified Experiences.
-        </p>
-        <p className="text-8xl text-center">
+        </h2>
+
+        <h2 className="text-8xl text-center font-medium">
           Real Value.
-        </p>
+        </h2>
       </div>
 
       <button
         onClick={handleJoinClick}
-        className="px-12 py-10 text-2xl bg-white text-black rounded-full flex items-center gap-x-4 hover:cursor-pointer"
+        className="px-12 py-10 text-2xl bg-white text-black rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium"
       >
         Join the allowlist <ArrowRight />
       </button>
