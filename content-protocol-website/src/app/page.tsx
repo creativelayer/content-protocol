@@ -1,5 +1,5 @@
 import Hero from "./components/hero/hero";
-import Carousel from "./components/global/carousel/carousel";
+import FeaturedImageCarousel from "./components/global/carousel/featured-image-carousel";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <Hero />
 
       <section className="mt-40">
-        <Carousel />
+        <FeaturedImageCarousel />
       </section>
     </div>
   );
