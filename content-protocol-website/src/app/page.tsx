@@ -3,6 +3,7 @@ import FeaturedImageCarousel from "./components/global/carousel/featured-image-c
 import Block1 from "./components/information-blocks/block-1";
 import Block2 from "./components/information-blocks/block-2";
 import Block3 from "./components/information-blocks/block-3";
+import Block4 from "./components/information-blocks/block-4";
 
 export default function Home() {
   return (
@@ -23,6 +24,10 @@ export default function Home() {
 
       <section className="mt-40">
         <Block3 />
+      </section>
+
+      <section className="mt-40">
+        <Block4 />
       </section>
     </div>
   );
