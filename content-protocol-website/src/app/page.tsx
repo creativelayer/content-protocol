@@ -6,7 +6,7 @@ import Block3 from './components/information-blocks/block-3'
 import Block4 from './components/information-blocks/block-4'
 import Block5 from './components/information-blocks/block-5'
 import Block6 from './components/information-blocks/block-6'
-
+import Block7 from './components/information-blocks/block-7'
 export default function Home () {
   return (
     <div className="flex flex-col min-h-screen pb-20 font-[family-name:var(--font-geist-sans)]">
@@ -38,6 +38,10 @@ export default function Home () {
 
       <section className="mt-40">
         <Block6 />
+      </section>
+
+      <section className="mt-40">
+        <Block7 />
       </section>
     </div>
   )
