@@ -1,13 +1,13 @@
-'use client';
+'use client'
 
-import CreativeLayerLogo from "../icons/creative-layer-logo";
-import ArrowRight from "../icons/arrow-right";
+import CreativeLayerLogo from '../icons/creative-layer-logo'
+import ArrowRight from '../icons/arrow-right'
 
-export default function Hero() {
+export default function Hero () {
   const handleJoinClick = () => {
     // Add your click handler logic here
-    console.log('Join button clicked');
-  };
+    console.log('Join button clicked')
+  }
 
   return (
     <section className="flex flex-col items-center mt-56 gap-y-16 px-40 font-[family-name:var(--font-geist-sans)]">
@@ -33,10 +33,10 @@ export default function Hero() {
 
       <button
         onClick={handleJoinClick}
-        className="px-12 py-10 text-2xl bg-white text-black rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium"
+        className="px-14 py-8 text-2xl bg-white text-black rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium"
       >
         Join the allowlist <ArrowRight />
       </button>
     </section>
-  );
+  )
 }

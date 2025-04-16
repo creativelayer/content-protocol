@@ -1,6 +1,6 @@
-import block2Image from "../../assets/information-blocks/Block_2_Desktop.png";
+import block2Image from '../../assets/information-blocks/Block_2_Desktop.png'
 
-export default function Block3() {
+export default function Block3 () {
   return (
     <div
       className="w-full relative"
@@ -10,7 +10,7 @@ export default function Block3() {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         aspectRatio: '1441/744',
-        maxHeight: '1000px'
+        maxHeight: '1000px',
       }}
     >
       <div className="flex justify-between items-center gap-x-16 px-28 h-full">
@@ -19,5 +19,5 @@ export default function Block3() {
         </h3>
       </div>
     </div>
-  );
+  )
 }

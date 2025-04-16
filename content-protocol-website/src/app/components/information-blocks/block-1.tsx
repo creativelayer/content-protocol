@@ -1,8 +1,8 @@
-import ArrowRight from "../icons/arrow-right";
+import ArrowRight from '../icons/arrow-right'
 
-import block1Image from "../../assets/information-blocks/Block_1_Desktop.png";
+import block1Image from '../../assets/information-blocks/Block_1_Desktop.png'
 
-export default function Block1() {
+export default function Block1 () {
   return (
     <div
       className="w-full relative"
@@ -12,7 +12,7 @@ export default function Block1() {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         aspectRatio: '1441/744',
-        maxHeight: '1000px'
+        maxHeight: '1000px',
       }}
     >
       <div className="flex justify-between items-center gap-x-16 px-28 h-full">
@@ -31,5 +31,5 @@ export default function Block1() {
         </div>
       </div>
     </div>
-  );
+  )
 }

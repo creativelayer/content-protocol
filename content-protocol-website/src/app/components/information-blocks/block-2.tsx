@@ -1,13 +1,13 @@
-'use client';
+'use client'
 
-import FeaturedArtistCarousel from "../global/carousel/featured-artist-carousel";
-import ArrowRight from "../icons/arrow-right";
+import FeaturedArtistCarousel from '../global/carousel/featured-artist-carousel'
+import ArrowRight from '../icons/arrow-right'
 
-export default function Block2() {
+export default function Block2 () {
   const handleJoinClick = () => {
     // Add your click handler logic here
-    console.log('Join button clicked');
-  };
+    console.log('Join button clicked')
+  }
 
   return (
     <section>
@@ -25,10 +25,10 @@ export default function Block2() {
 
       <button
         onClick={handleJoinClick}
-        className="px-12 py-10 text-2xl bg-white text-black rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium mx-auto mt-24"
+        className="px-14 py-8 text-2xl bg-white text-black rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium mx-auto mt-24"
       >
         Join the allowlist <ArrowRight />
       </button>
     </section>
-  );
+  )
 }
