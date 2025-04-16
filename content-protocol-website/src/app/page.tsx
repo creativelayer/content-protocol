@@ -8,6 +8,7 @@ import Block5 from './components/information-blocks/block-5'
 import Block6 from './components/information-blocks/block-6'
 import Block7 from './components/information-blocks/block-7'
 import Block8 from './components/information-blocks/block-8'
+import Block9 from './components/information-blocks/block-9'
 
 export default function Home () {
   return (
@@ -48,6 +49,10 @@ export default function Home () {
 
       <section className="mt-40">
         <Block8 />
+      </section>
+
+      <section className="mt-40">
+        <Block9 />
       </section>
     </div>
   )

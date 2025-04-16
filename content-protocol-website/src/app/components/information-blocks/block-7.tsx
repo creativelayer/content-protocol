@@ -21,7 +21,9 @@ export default function Block7 () {
         <DetailCard title="Governance" description="Governance over protocol upgrades and incentive programs." />
 
         <DetailCard title="Creator Tools" description="Access to creator tools, minting rights, and premium features." />
+
         <DetailCard title="Rewards" description="Rewards for creators, fans, remixers, and developers." />
+
         <DetailCard title="Utility" description="Utility across apps like Duels, Remx, and more." />
       </div>
     </div>
