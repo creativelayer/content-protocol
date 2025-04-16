@@ -13,10 +13,10 @@ import Block10 from './components/information-blocks/block-10'
 import Footer from './components/footer/footer'
 export default function Home () {
   return (
-    <div className="flex flex-col min-h-screen pb-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col min-h-screen pb-20 w-full">
       <Hero />
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <FeaturedImageCarousel />
       </section>
 
@@ -62,7 +62,7 @@ export default function Home () {
 
       <section className="mt-40">
         <Footer />
-      </section>
+      </section> */}
     </div>
   )
 }
