@@ -13,54 +13,54 @@ import Block10 from './components/information-blocks/block-10'
 import Footer from './components/footer/footer'
 export default function Home () {
   return (
-    <div className="flex flex-col min-h-screen pb-20 w-full">
+    <div className="flex flex-col min-h-screen pb-10 md:pb-20 w-full">
       <Hero />
 
-      {/* <section className="mt-40">
+      <section className="mt-20 md:mt-40">
         <FeaturedImageCarousel />
       </section>
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block1 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block2 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block3 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block4 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block5 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block6 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block7 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block8 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block9 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Block10 />
-      </section>
+      </section> */}
 
-      <section className="mt-40">
+      {/* <section className="mt-40">
         <Footer />
       </section> */}
     </div>

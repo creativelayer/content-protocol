@@ -10,7 +10,7 @@ export default function Hero () {
   }
 
   return (
-    <section className="flex flex-col items-center mt-56 gap-y-16 mx-8 md:mx-40">
+    <section className="flex flex-col items-center mt-20 md:mt-56 gap-y-16 mx-8 md:mx-40">
       <div className="flex items-center gap-x-4">
         <CreativeLayerLogo className="w-6 h-6 md:w-8 md:h-8" />
 

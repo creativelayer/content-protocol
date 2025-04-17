@@ -23,7 +23,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -31,7 +31,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -39,7 +39,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -47,7 +47,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -55,7 +55,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -63,7 +63,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -71,7 +71,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -79,7 +79,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -87,7 +87,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -95,7 +95,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         {/* Duplicate set of images */}
@@ -104,7 +104,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -112,7 +112,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -120,7 +120,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -128,7 +128,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -136,7 +136,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -144,7 +144,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -152,7 +152,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -160,7 +160,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -168,7 +168,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
 
         <Image
@@ -176,7 +176,7 @@ export default function FeaturedImageCarousel() {
           alt="Carousel image"
           width={312}
           height={416}
-          className="rounded-4xl flex-shrink-0"
+          className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
         />
       </div>
     </div>
