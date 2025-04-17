@@ -15,7 +15,7 @@ export default function Block1 () {
         maxHeight: '1000px',
       }}
     >
-      <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-x-16 px-8 md:px-28 h-full">
+      <div className="flex flex-col justify-center md:flex-row md:justify-between md:items-center gap-x-16 px-8 md:px-28 h-full">
         <h3 className="text-white md:text-center text-4xl md:text-7xl font-medium">
           Transforming digital media into onchain economies.
         </h3>
