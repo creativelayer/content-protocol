@@ -56,9 +56,9 @@ export default function Home () {
         <Block9 />
       </section>
 
-      {/* <section className="mt-20 md:mt-40">
+      <section className="mt-20 md:mt-40">
         <Block10 />
-      </section> */}
+      </section>
 
       {/* <section className="mt-20 md:mt-40">
         <Footer />
