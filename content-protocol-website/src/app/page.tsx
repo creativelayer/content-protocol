@@ -20,9 +20,9 @@ export default function Home () {
         <FeaturedImageCarousel />
       </section>
 
-      {/* <section className="mt-40">
+      <section className="mt-40">
         <Block1 />
-      </section> */}
+      </section>
 
       {/* <section className="mt-40">
         <Block2 />
