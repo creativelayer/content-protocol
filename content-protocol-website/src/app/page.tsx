@@ -20,47 +20,47 @@ export default function Home () {
         <FeaturedImageCarousel />
       </section>
 
-      <section className="mt-40">
+      <section className="mt-20 md:mt-40">
         <Block1 />
       </section>
 
-      {/* <section className="mt-40">
+      <section className="mt-20 md:mt-40">
         <Block2 />
-      </section> */}
+      </section>
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block3 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block4 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block5 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block6 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block7 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block8 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block9 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Block10 />
       </section> */}
 
-      {/* <section className="mt-40">
+      {/* <section className="mt-20 md:mt-40">
         <Footer />
       </section> */}
     </div>

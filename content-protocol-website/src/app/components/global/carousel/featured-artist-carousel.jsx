@@ -20,12 +20,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage1.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Anna Dart</p>
         </div>
@@ -34,12 +32,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage2.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Aoife O'Dwyer</p>
         </div>
@@ -48,12 +44,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage3.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Delsol</p>
         </div>
@@ -62,12 +56,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage4.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">ErikX</p>
         </div>
@@ -76,12 +68,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage5.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Leslie A Spurlock</p>
         </div>
@@ -90,12 +80,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage6.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Mike Fogg</p>
         </div>
@@ -104,12 +92,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage7.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Nathan A Bauman</p>
         </div>
@@ -118,12 +104,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage8.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Rich Armstrong</p>
         </div>
@@ -132,12 +116,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage9.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Roger Haus</p>
         </div>
@@ -146,12 +128,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage10.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">uyo66</p>
         </div>
@@ -161,12 +141,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage1.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Anna Dart</p>
         </div>
@@ -175,12 +153,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage2.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Aoife O'Dwyer</p>
         </div>
@@ -189,12 +165,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage3.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Delsol</p>
         </div>
@@ -203,12 +177,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage4.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">ErikX</p>
         </div>
@@ -217,12 +189,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage5.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Leslie A Spurlock</p>
         </div>
@@ -231,12 +201,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage6.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Mike Fogg</p>
         </div>
@@ -245,12 +213,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage7.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Nathan A Bauman</p>
         </div>
@@ -259,12 +225,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage8.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Rich Armstrong</p>
         </div>
@@ -273,12 +237,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage9.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Roger Haus</p>
         </div>
@@ -287,12 +249,10 @@ export default function FeaturedImageCarousel() {
           <div
             style={{
               backgroundImage: `url(${carouselImage10.src})`,
-              width: '312px',
-              height: '416px',
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}
-            className="rounded-4xl flex-shrink-0"
+            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">uyo66</p>
         </div>
