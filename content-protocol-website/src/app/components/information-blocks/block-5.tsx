@@ -25,19 +25,19 @@ export default function Block5 () {
             A head-to-head content battle game where media competes. Two artworks enter. Users bet with USDC. Winners earn. Everyone gets tokens.
           </p>
 
-          <div className="space-y-5 md:space-y-10 mt-4 md:mt-0 pl-8 md:pl-0">
-            <p className="text-white font-medium text-2xl md:text-3xl md:pr-28 flex items-center gap-x-2">
-              <ArrowRight className="w-5 md:w-8" /> Live now with real payouts
-            </p>
+          <ul className="space-y-5 md:space-y-10 mt-4 md:mt-0 pl-8 md:pl-0 [&>li]:before:content-['•'] [&>li]:before:text-white [&>li]:before:mr-2 md:[&>li]:before:content-none">
+            <li className="text-white font-medium text-xl md:text-3xl md:pr-28 flex items-center gap-x-2">
+              <ArrowRight className="hidden md:block w-5 md:w-8 h-5 md:h-8" /> Live now with real payouts
+            </li>
 
-            <p className="text-white font-medium text-2xl md:text-3xl md:pr-28 flex items-center gap-x-2">
-              <ArrowRight className="w-5 md:w-8" /> Powered by Creative Layer
-            </p>
+            <li className="text-white font-medium text-xl md:text-3xl md:pr-28 flex items-center gap-x-2">
+              <ArrowRight className="hidden md:block w-5 md:w-8 h-5 md:h-8" /> Powered by Creative Layer
+            </li>
 
-            <p className="text-white font-medium text-2xl md:text-3xl md:pr-28 flex items-center gap-x-2">
-              <ArrowRight className="w-5 md:w-8" /> Built on Farcaster
-            </p>
-          </div>
+            <li className="text-white font-medium text-xl md:text-3xl md:pr-28 flex items-center gap-x-2">
+              <ArrowRight className="hidden md:block w-5 md:w-8 h-5 md:h-8" /> Built on Farcaster
+            </li>
+          </ul>
         </div>
 
         <div className="mt-8 md:mt-4 ml-8 md:ml-28">
