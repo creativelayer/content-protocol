@@ -1,8 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
-import ArrowRight from './icons/arrow-right'
+import PrivyModal from './global/privy-modal/privy-modal'
 
 interface AllowListModalProps {
   isOpen: boolean;
@@ -10,15 +8,7 @@ interface AllowListModalProps {
   onSubmit: (email: string) => void;
 }
 
-export default function AllowListModal ({ isOpen, onClose, onSubmit }: AllowListModalProps) {
-  const [email, setEmail] = useState('')
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    onSubmit('something@something.com')  // Emit the email to the parent
-    setEmail('')     // Clear the input after submission
-  }
-
+export default function AllowListModal ({ isOpen, onClose }: AllowListModalProps) {
   if (!isOpen) return null
 
   return (
@@ -42,24 +32,7 @@ export default function AllowListModal ({ isOpen, onClose, onSubmit }: AllowList
             Be the first to access $CONTENT token. Enter your email below to join the allowlist and secure your spot. You will be notified when the $CONTENT token is nearing launch.
           </p>
 
-          <form onSubmit={handleSubmit} className="mt-10 md:mt-20">
-            <input
-              type="email"
-              placeholder="Enter email address"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-4 md:p-6 border border-gray-300 mb-4 text-xl md:text-3xl focus:outline-none focus:ring-2 focus:ring-black text-black placeholder:text-[#4F6071] "
-              required
-            />
-
-            <button
-              type="submit"
-              className="w-full bg-black text-white text-xl md:text-3xl py-4 px-6 rounded-full flex items-center justify-center space-x-4 mt-8 md:mt-18 hover:bg-gray-900 transition-colors"
-            >
-              <span>Join the allowlist</span>
-                <ArrowRight className="w-4 h-4 md:w-6 md:h-6" />
-            </button>
-          </form>
+          <PrivyModal onJoinClick={() => onClose()} />
         </div>
       </div>
     </div>

@@ -9,9 +9,7 @@ interface HeroProps {
 
 export default function Hero ({ joinClickHandler }: HeroProps) {
   const handleJoinClick = () => {
-    // Add your click handler logic here
     joinClickHandler()
-    console.log('Join button clicked')
   }
 
   return (
