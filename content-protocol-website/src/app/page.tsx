@@ -31,11 +31,6 @@ export default function Home () {
     console.log('join click', email)
   }
 
-  const handleGetInTouchClick = () => {
-    setIsGetInTouchModalOpen(true)
-    console.log('get in touch click')
-  }
-
   return (
     <div className="flex flex-col min-h-screen pb-10 md:pb-20 w-full">
       <Hero joinClickHandler={() => setIsModalOpen(true)} />
@@ -45,11 +40,11 @@ export default function Home () {
       </section>
 
       <section className="mt-20 md:mt-40">
-        <Block1 />
+        <Block1 joinClickHandler={() => setIsModalOpen(true)} />
       </section>
 
       <section className="mt-20 md:mt-40">
-        <Block2 />
+        <Block2 joinClickHandler={() => setIsModalOpen(true)} />
       </section>
 
       <section className="mt-20 md:mt-40">
@@ -81,7 +76,7 @@ export default function Home () {
       </section>
 
       <section className="mt-20 md:mt-40">
-        <Block10 />
+        <Block10 joinClickHandler={() => setIsModalOpen(true)} />
       </section>
 
       <section className="mt-20 md:mt-40">

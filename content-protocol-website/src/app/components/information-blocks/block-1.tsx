@@ -2,7 +2,17 @@ import ArrowRight from '../icons/arrow-right'
 
 import block1Image from '../../assets/information-blocks/Block_1_Desktop.png'
 
-export default function Block1 () {
+interface HeroProps {
+  joinClickHandler: () => void
+}
+
+export default function Block1 ({ joinClickHandler }: HeroProps) {
+  const handleJoinClick = () => {
+    // Add your click handler logic here
+    joinClickHandler()
+    console.log('Join button clicked')
+  }
+
   return (
     <div
       className="w-full relative"
@@ -25,7 +35,10 @@ export default function Block1 () {
             Tokenize content. Gamify interaction. Share value across creators, fans, and developers.
           </p>
 
-          <button className="flex items-center gap-x-2 text-white underline underline-offset-2 hover:no-underline text-2xl">
+          <button
+            onClick={handleJoinClick}
+            className="flex items-center gap-x-2 text-white underline underline-offset-2 hover:no-underline text-2xl"
+          >
             Join the allowlist <ArrowRight className="text-white w-4 h-4" />
           </button>
         </div>
