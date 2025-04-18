@@ -16,17 +16,24 @@ import Block9 from './components/information-blocks/block-9'
 import Block10 from './components/information-blocks/block-10'
 import Footer from './components/footer/footer'
 import AllowListModal from './components/AllowListModal'
+import GetInTouchModal from './components/GetInTouchModal'
 
 interface HomeProps {
   joinClickHandler: (email: string) => void
+  getInTouchClickHandler: () => void
 }
 
-export default function Home ({ j }: HomeProps) {
+export default function Home () {
   const [isModalOpen, setIsModalOpen] = useState(false)
-
+  const [isGetInTouchModalOpen, setIsGetInTouchModalOpen] = useState(false)
   const handleJoinClick = (email: string) => {
     setIsModalOpen(true)
     console.log('join click', email)
+  }
+
+  const handleGetInTouchClick = () => {
+    setIsGetInTouchModalOpen(true)
+    console.log('get in touch click')
   }
 
   return (
@@ -66,7 +73,7 @@ export default function Home ({ j }: HomeProps) {
       </section>
 
       <section className="mt-20 md:mt-40">
-        <Block8 />
+        <Block8 getInTouchClickHandler={() =>setIsGetInTouchModalOpen(true)} />
       </section>
 
       <section className="mt-20 md:mt-40">
@@ -85,6 +92,11 @@ export default function Home ({ j }: HomeProps) {
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         onSubmit={handleJoinClick}
+      />
+
+      <GetInTouchModal
+        isOpen={isGetInTouchModalOpen}
+        onClose={() => setIsGetInTouchModalOpen(false)}
       />
     </div>
   )
