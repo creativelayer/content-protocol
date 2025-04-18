@@ -3,9 +3,14 @@
 import CreativeLayerLogo from '../icons/creative-layer-logo'
 import ArrowRight from '../icons/arrow-right'
 
-export default function Hero () {
+interface HeroProps {
+  joinClickHandler: () => void
+}
+
+export default function Hero ({ joinClickHandler }: HeroProps) {
   const handleJoinClick = () => {
     // Add your click handler logic here
+    joinClickHandler()
     console.log('Join button clicked')
   }
 

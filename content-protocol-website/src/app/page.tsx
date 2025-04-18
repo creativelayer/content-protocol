@@ -1,3 +1,7 @@
+'use client'
+
+import { useState } from 'react'
+
 import Hero from './components/hero/hero'
 import FeaturedImageCarousel from './components/global/carousel/featured-image-carousel'
 import Block1 from './components/information-blocks/block-1'
@@ -11,10 +15,23 @@ import Block8 from './components/information-blocks/block-8'
 import Block9 from './components/information-blocks/block-9'
 import Block10 from './components/information-blocks/block-10'
 import Footer from './components/footer/footer'
-export default function Home () {
+import AllowListModal from './components/AllowListModal'
+
+interface HomeProps {
+  joinClickHandler: (email: string) => void
+}
+
+export default function Home ({ j }: HomeProps) {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const handleJoinClick = (email: string) => {
+    setIsModalOpen(true)
+    console.log('join click', email)
+  }
+
   return (
     <div className="flex flex-col min-h-screen pb-10 md:pb-20 w-full">
-      <Hero />
+      <Hero joinClickHandler={() => setIsModalOpen(true)} />
 
       <section className="mt-20 md:mt-40">
         <FeaturedImageCarousel />
@@ -63,6 +80,12 @@ export default function Home () {
       <section className="mt-20 md:mt-40">
         <Footer />
       </section>
+
+      <AllowListModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        onSubmit={handleJoinClick}
+      />
     </div>
   )
 }
