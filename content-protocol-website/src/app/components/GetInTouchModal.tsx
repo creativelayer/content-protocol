@@ -38,6 +38,9 @@ export default function GetInTouchModal ({ isOpen, onClose }: GetInTouchModalPro
 
             <a
               href="mailto:hello@creativelayer.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={onClose}
               className="text-xl md:text-3xl font-medium text-black underline hover:text-gray-800 transition-colors mt-8 md:mt-16"
             >
               hello@creativelayer.com
