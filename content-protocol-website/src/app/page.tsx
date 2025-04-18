@@ -22,6 +22,7 @@ import GetInTouchModal from './components/GetInTouchModal'
 export default function Home () {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [isGetInTouchModalOpen, setIsGetInTouchModalOpen] = useState(false)
+
   const handleJoinClick = () => {
     setIsModalOpen(true)
   }
@@ -37,6 +38,9 @@ export default function Home () {
           // customize further as needed
         },
         // optional additional configuration
+        embeddedWallets: {
+          createOnLogin: 'users-without-wallets',
+        },
       }}
     >
       <div className="flex flex-col min-h-screen pb-10 md:pb-20 w-full">

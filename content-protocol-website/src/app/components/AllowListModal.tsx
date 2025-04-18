@@ -9,6 +9,61 @@ interface AllowListModalProps {
 }
 
 export default function AllowListModal ({ isOpen, onClose }: AllowListModalProps) {
+//   function MainContent () {
+//   const { login, authenticated, user, connectWallet } = usePrivy()
+//   const { wallets } = useWallets()
+//   const [step, setStep] = useState('email') // Track onboarding step
+
+//   if (!authenticated) {
+//     return (
+//       <div className="container">
+//         <h1>Welcome to My dApp</h1>
+//         <p>Please sign in with your email to continue</p>
+//         <button onClick={login}>Sign In with Email</button>
+//       </div>
+//     )
+//   }
+
+//   // User has authenticated with email
+//   const email = user?.email?.address || 'No email provided'
+//   const hasConnectedWallet = wallets.length > 0
+
+//   // Handle wallet connection step
+//   if (step === 'email' && !hasConnectedWallet) {
+//     return (
+//       <div className="container">
+//         <h1>Welcome, {email}</h1>
+//         <p>Now, please connect your wallet to continue</p>
+//         <button onClick={() => connectWallet()}>Connect Wallet</button>
+//       </div>
+//     )
+//   }
+
+//   // Both steps completed
+//   return (
+//     <div className="container">
+//       <h1>Welcome to My dApp</h1>
+//       <div>
+//         <h2>Your Information</h2>
+//         <p><strong>Email:</strong> {email}</p>
+//         <h3>Connected Wallets</h3>
+//         {hasConnectedWallet ? (
+//           <ul>
+//             {wallets.map((wallet, index) => (
+//               <li key={index}>
+//                 <strong>Address:</strong> {wallet.address} <br />
+//                 <strong>Chain:</strong> {wallet.chainId}
+//               </li>
+//             ))}
+//           </ul>
+//         ) : (
+//           <p>No wallets connected</p>
+//         )}
+//       </div>
+//     </div>
+//   )
+// }
+
   if (!isOpen) return null
 
   return (
