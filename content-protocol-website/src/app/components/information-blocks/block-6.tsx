@@ -47,7 +47,6 @@ export default function Block6 () {
             Explore Remx <ArrowRight />
           </button>
         </div>
-
       </div>
     </div>
   )
