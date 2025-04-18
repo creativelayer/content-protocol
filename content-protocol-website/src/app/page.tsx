@@ -30,7 +30,7 @@ export default function Home () {
     <PrivyProvider
       appId="cm4sts6ke03d0e2fcgv0jfukl"
       config={{
-        loginMethods: ['email', 'wallet'],
+        loginMethods: ['email'],
         appearance: {
           theme: 'light',
           accentColor: '#676FFF',
