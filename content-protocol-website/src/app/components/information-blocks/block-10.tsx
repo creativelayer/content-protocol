@@ -2,9 +2,15 @@
 
 import ArrowRight from '../icons/arrow-right'
 
-export default function Block10 () {
+interface HeroProps {
+  joinClickHandler: () => void
+}
+
+export default function Block10 ({ joinClickHandler }: HeroProps) {
   const handleJoinClick = () => {
-    console.log('Join clicked')
+    // Add your click handler logic here
+    joinClickHandler()
+    console.log('Join button clicked')
   }
 
   return (

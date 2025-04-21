@@ -8,9 +8,13 @@ import privyLogo from '../../assets/information-blocks/privy-logo.svg'
 import baseLogo from '../../assets/information-blocks/base-logo.svg'
 import farcasterLogo from '../../assets/information-blocks/farcaster-logo.svg'
 
-export default function Block8 () {
+interface Block8Props {
+  getInTouchClickHandler: () => void
+}
+
+export default function Block8 ({ getInTouchClickHandler }: Block8Props) {
   const handleGetInTouchClick = () => {
-    console.log('Get in touch clicked')
+    getInTouchClickHandler()
   }
 
   return (

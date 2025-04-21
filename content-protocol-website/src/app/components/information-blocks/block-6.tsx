@@ -7,8 +7,7 @@ import block6Image from '../../assets/information-blocks/Remx.png'
 
 export default function Block6 () {
   const handleExploreRemx = () => {
-    // Add your click handler logic here
-    console.log('Play Duels button clicked')
+    window.open('https://remx.xyz/', '_blank')
   }
 
   return (
@@ -48,7 +47,6 @@ export default function Block6 () {
             Explore Remx <ArrowRight />
           </button>
         </div>
-
       </div>
     </div>
   )

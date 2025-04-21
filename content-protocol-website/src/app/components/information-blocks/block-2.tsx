@@ -3,9 +3,14 @@
 import FeaturedArtistCarousel from '../global/carousel/featured-artist-carousel'
 import ArrowRight from '../icons/arrow-right'
 
-export default function Block2 () {
+interface HeroProps {
+  joinClickHandler: () => void
+}
+
+export default function Block2 ({ joinClickHandler }: HeroProps) {
   const handleJoinClick = () => {
     // Add your click handler logic here
+    joinClickHandler()
     console.log('Join button clicked')
   }
 

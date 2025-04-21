@@ -7,8 +7,7 @@ import block5Image from '../../assets/information-blocks/Duels.png'
 
 export default function Block5 () {
   const handlePlayDuel = () => {
-    // Add your click handler logic here
-    console.log('Play Duels button clicked')
+    window.open('https://warpcast.com/duelsapp', '_blank')
   }
 
   return (
