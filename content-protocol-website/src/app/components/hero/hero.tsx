@@ -17,7 +17,7 @@ export default function Hero ({ joinClickHandler }: HeroProps) {
       <div className="flex items-center gap-x-4">
         <CreativeLayerLogo className="w-6 h-6 md:w-8 md:h-8" />
 
-        <h1 className="text-2xl md:text-4xl font-bold">Creative Layer</h1>
+        <h1 className="text-2xl md:text-4xl font-medium">Creative Layer</h1>
       </div>
 
       <div className="flex flex-col gap-y-4 items-center ">

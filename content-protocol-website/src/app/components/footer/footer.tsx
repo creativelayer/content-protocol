@@ -5,7 +5,7 @@ export default function Footer () {
     <div className="flex flex-col justify-between px-8 md:px-28 py-8 md:py-16 border-t border-[#4F6071]">
       <div className="flex items-center gap-x-4">
         <CreativeLayerLogo className="w-4 md:w-6 h-4 md:h-6" />
-        <h4 className="text-white text-2xl md:text-3xl font-bold">Creative Layer</h4>
+        <h4 className="text-white text-2xl md:text-3xl font-medium">Creative Layer</h4>
       </div>
 
       <h3 className="text-white text-5xl md:text-8xl mt-4 md:mt-9 max-w-4xl font-bold">
