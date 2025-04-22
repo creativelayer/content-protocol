@@ -4,7 +4,7 @@ export default function Block7 () {
   return (
     <div className="flex flex-col justify-between items-center gap-y-8 md:gap-y-14 h-full">
       <div className="flex flex-col justify-center items-center gap-y-8 md:gap-y-14">
-        <h3 className="text-white text-center text-4xl md:text-7xl mx-8 md:mx-28 font-medium">
+        <h3 className="text-white text-center text-4xl md:text-7xl mx-8 md:mx-28 font-bold">
           $CREATE: The Token Powering the Protocol
         </h3>
 
@@ -12,9 +12,9 @@ export default function Block7 () {
           $CREATE is the native utility token of Creative Layer. It powers governance, access, incentives, and value flow across every app built on the protocol.
         </p>
 
-        <p className="text-3xl md:text-5xl text-center md:text-left text-white px-8 md:px-64 font-medium">
+        <h4 className="text-3xl md:text-5xl text-center md:text-left text-white px-8 md:px-64 font-bold">
           What $CREATE unlocks:
-        </p>
+        </h4>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-5 mx-8 md:mx-14">

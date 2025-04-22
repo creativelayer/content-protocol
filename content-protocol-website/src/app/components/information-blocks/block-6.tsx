@@ -15,7 +15,7 @@ export default function Block6 () {
       <Image src={block6Image} alt="Block 6" className="md:px-16" />
 
       <div className="mt-16 md:mt-24">
-        <h3 className="text-white font-medium text-4xl md:text-6xl px-8 md:px-28">
+        <h3 className="text-white font-bold text-4xl md:text-6xl px-8 md:px-28">
           Remx
         </h3>
 
