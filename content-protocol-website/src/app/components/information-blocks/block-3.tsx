@@ -14,7 +14,7 @@ export default function Block3 () {
       }}
     >
       <div className="flex justify-between items-center gap-x-16 px-8 md:px-28 h-full">
-        <h3 className="text-white text-center text-4xl md:text-7xl">
+        <h3 className="text-white text-center text-4xl md:text-7xl font-bold">
           Every piece of content is an ERC-20 token. Every interaction is an opportunity to play, earn, or build.
         </h3>
       </div>

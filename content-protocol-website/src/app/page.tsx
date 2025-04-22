@@ -29,7 +29,7 @@ export default function Home () {
 
   return (
     <PrivyProvider
-      appId="cm4sts6ke03d0e2fcgv0jfukl"
+      appId="cm9ngjrb902fpjr0ny82zn4v3"
       config={{
         loginMethods: ['email'],
         appearance: {

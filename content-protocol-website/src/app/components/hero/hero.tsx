@@ -17,19 +17,19 @@ export default function Hero ({ joinClickHandler }: HeroProps) {
       <div className="flex items-center gap-x-4">
         <CreativeLayerLogo className="w-6 h-6 md:w-8 md:h-8" />
 
-        <h1 className="text-2xl md:text-4xl">Creative Layer</h1>
+        <h1 className="text-2xl md:text-4xl font-medium">Creative Layer</h1>
       </div>
 
       <div className="flex flex-col gap-y-4 items-center ">
-        <h2 className="text-4xl md:text-8xl text-center font-medium">
+        <h2 className="text-4xl md:text-8xl text-center font-bold">
           Programmable Content.
         </h2>
 
-        <h2 className="text-4xl md:text-8xl text-center font-medium">
+        <h2 className="text-4xl md:text-8xl text-center font-bold">
           Gamified Experiences.
         </h2>
 
-        <h2 className="text-4xl md:text-8xl text-center font-medium">
+        <h2 className="text-4xl md:text-8xl text-center font-bold">
           Real Value.
         </h2>
       </div>

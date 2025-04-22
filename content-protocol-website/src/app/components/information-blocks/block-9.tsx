@@ -4,7 +4,7 @@ export default function Block9 () {
   return (
     <div className="flex flex-col justify-between items-center gap-y-8 md:gap-y-14 h-full">
       <div className="flex flex-col justify-center items-center gap-y-8 md:gap-y-14">
-        <h3 className="text-white text-center text-4xl md:text-7xl px-8 md:px-28 font-medium">
+        <h3 className="text-white text-center text-4xl md:text-7xl px-8 md:px-28 font-bold">
           TGE Incoming
         </h3>
 

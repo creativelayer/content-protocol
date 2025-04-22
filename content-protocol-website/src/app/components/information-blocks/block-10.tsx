@@ -8,14 +8,12 @@ interface HeroProps {
 
 export default function Block10 ({ joinClickHandler }: HeroProps) {
   const handleJoinClick = () => {
-    // Add your click handler logic here
     joinClickHandler()
-    console.log('Join button clicked')
   }
 
   return (
     <div className="flex flex-col justify-between items-center gap-y-8 md:gap-y-14 h-full">
-      <h3 className="text-white text-center text-4xl md:text-7xl px-8 md:px-28">
+      <h3 className="text-white text-center text-4xl md:text-7xl px-8 md:px-28 font-bold">
         Join the Allowlist
       </h3>
 
