@@ -8,9 +8,7 @@ interface HeroProps {
 
 export default function Block1 ({ joinClickHandler }: HeroProps) {
   const handleJoinClick = () => {
-    // Add your click handler logic here
     joinClickHandler()
-    console.log('Join button clicked')
   }
 
   return (
@@ -26,18 +24,18 @@ export default function Block1 ({ joinClickHandler }: HeroProps) {
       }}
     >
       <div className="flex flex-col justify-center md:flex-row md:justify-between md:items-center gap-x-16 px-8 md:px-28 h-full">
-        <h3 className="text-white md:text-center text-4xl md:text-7xl font-medium">
+        <h3 className="text-white text-4xl md:text-7xl font-bold">
           Transforming digital media into onchain economies.
         </h3>
 
         <div>
-          <p className="text-white md:text-center text-2xl md:text-3xl mt-7 md:mt-0 mb-8 md:mb-12">
+          <p className="text-white text-2xl md:text-3xl mt-7 md:mt-0 mb-8 md:mb-12">
             Tokenize content. Gamify interaction. Share value across creators, fans, and developers.
           </p>
 
           <button
             onClick={handleJoinClick}
-            className="flex items-center gap-x-2 text-white underline underline-offset-2 hover:no-underline text-2xl"
+            className="flex items-center gap-x-2 text-white underline underline-offset-2 hover:no-underline text-2xl font-medium"
           >
             Join the allowlist <ArrowRight className="text-white w-4 h-4" />
           </button>

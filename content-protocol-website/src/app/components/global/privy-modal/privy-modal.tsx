@@ -8,9 +8,10 @@ interface PrivyModalProps {
 }
 
 export default function PrivyModal ({ onJoinClick }: PrivyModalProps) {
-  const { login, authenticated, user, connectWallet } = usePrivy()
+  const { login, authenticated, connectWallet } = usePrivy()
   const { wallets } = useWallets()
-  const [step, setStep] = useState('email') // Track onboarding step
+  const [ step ] = useState('email') // Track onboarding step
+  // const [step, setStep] = useState('email') // Keep this for future use
 
   const handleJoinClick = () => {
     onJoinClick()
@@ -27,7 +28,7 @@ export default function PrivyModal ({ onJoinClick }: PrivyModalProps) {
     }
 
     // User has authenticated with email
-    const email = user?.email?.address || 'No email provided'
+    // const email = user?.email?.address || 'No email provided'
     const hasConnectedWallet = wallets.length > 0
 
     // Handle wallet connection step
