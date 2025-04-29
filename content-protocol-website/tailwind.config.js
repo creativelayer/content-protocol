@@ -16,6 +16,9 @@ module.exports = {
       animation: {
         scroll: 'scroll 20s linear infinite',
       },
+      colors: {
+        'brand-text-gray': '#4F6071',
+      },
     },
   },
   plugins: [],

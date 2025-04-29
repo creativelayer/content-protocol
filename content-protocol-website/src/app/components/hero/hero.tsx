@@ -17,28 +17,24 @@ export default function Hero ({ joinClickHandler }: HeroProps) {
       <div className="flex items-center gap-x-4">
         <CreativeLayerLogo className="w-6 h-6 md:w-8 md:h-8" />
 
-        <h1 className="text-2xl md:text-4xl font-medium">Creative Layer</h1>
+        <h1 className="text-2xl md:text-4xl font-medium">Creative Layer Protocol</h1>
       </div>
 
-      <div className="flex flex-col gap-y-4 items-center ">
+      <div className="flex flex-col gap-y-16 items-center ">
         <h2 className="text-4xl md:text-8xl text-center font-bold">
-          Programmable Content.
+          Turn Creativity into Programmable Capital
         </h2>
 
-        <h2 className="text-4xl md:text-8xl text-center font-bold">
-          Gamified Experiences.
-        </h2>
-
-        <h2 className="text-4xl md:text-8xl text-center font-bold">
-          Real Value.
-        </h2>
+        <p className="text-center text-xl md:text-3xl text-[#4F6071] max-w-5xl">
+          Creative Layer is a community-owned protocol that transforms digital assets into programmable coins—turning culture into currency. Welcome to Culture Coins.
+        </p>
       </div>
 
       <button
         onClick={handleJoinClick}
-        className="px-14 py-6 md:py-8 text-xl md:text-2xl bg-white text-black rounded-full flex items-center justify-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium w-full md:w-auto text-center"
+        className="px-14 py-6 md:py-8 text-xl md:text-2xl bg-black text-white rounded-full flex items-center justify-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium w-full md:w-auto text-center"
       >
-        Join the allowlist <ArrowRight />
+        Get early access <ArrowRight />
       </button>
     </section>
   )

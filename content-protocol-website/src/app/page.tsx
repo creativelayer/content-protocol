@@ -46,25 +46,25 @@ export default function Home () {
       <div className="flex flex-col min-h-screen pb-10 md:pb-20 w-full">
         <Hero joinClickHandler={() => setIsModalOpen(true)} />
 
-        <section className="mt-20 md:mt-40">
+        {/* <section className="mt-20 md:mt-40">
           <FeaturedImageCarousel />
-        </section>
+        </section> */}
 
-        <section className="mt-20 md:mt-40">
+        {/* <section className="mt-20 md:mt-40">
           <Block1 joinClickHandler={() => setIsModalOpen(true)} />
-        </section>
+        </section> */}
 
-        <section className="mt-20 md:mt-40">
+        {/* <section className="mt-20 md:mt-40">
           <Block2 joinClickHandler={() => setIsModalOpen(true)} />
-        </section>
+        </section> */}
 
-        <section className="mt-20 md:mt-40">
+        {/* <section className="mt-20 md:mt-40">
           <Block3 />
-        </section>
+        </section> */}
 
-        <section className="mt-20 md:mt-40">
+        {/* <section className="mt-20 md:mt-40">
           <Block4 />
-        </section>
+        </section> */}
 
         <section className="mt-20 md:mt-40">
           <Block5 />
