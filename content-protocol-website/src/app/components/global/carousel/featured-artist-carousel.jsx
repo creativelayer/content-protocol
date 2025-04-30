@@ -9,204 +9,50 @@ import carouselImage8 from '@/app/assets/carousel/featured-artists-v2/Tylersjour
 
 import styles from './carousel.module.css';
 
+const CarouselItem = ({ image, name, price }) => (
+  <div className="relative">
+    <div
+      style={{
+        backgroundImage: `url(${image.src})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
+      className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
+    />
+    <div className="absolute bottom-10 md:bottom-20 left-1/2 transform -translate-x-1/2 w-full">
+      <p className="text-white text-center text-2xl font-medium">{name}</p>
+      <p className="text-white text-center text-xl">${price}</p>
+    </div>
+  </div>
+);
+
 export default function FeaturedImageCarousel() {
+  const items = [
+    { image: carouselImage1, name: 'Dan Woo', price: '2700' },
+    { image: carouselImage2, name: 'Erik X', price: '974' },
+    { image: carouselImage3, name: 'juujuumama', price: '1276' },
+    { image: carouselImage4, name: 'Leslie A Spurlock', price: '6336' },
+    { image: carouselImage5, name: 'Nikalaus', price: '650' },
+    { image: carouselImage6, name: 'Rich Armstrong', price: '866' },
+    { image: carouselImage7, name: 'Roger Haus', price: '1659' },
+    { image: carouselImage8, name: 'Tylersjourney', price: '1996' },
+  ];
+
   return (
     <div className={styles.carouselContainer}>
       <div className={styles.carousel}>
-        {/* First set of images, if changing or adding more images, make sure also change in the duplicate set of images under these */}
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage1.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Anna Dart</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage2.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Aoife O'Dwyer</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage3.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Delsol</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage4.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">ErikX</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage5.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Leslie A Spurlock</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage6.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Mike Fogg</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage7.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Nathan A Bauman</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage8.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Rich Armstrong</p>
-        </div>
-
-        {/* Duplicate set of images, to keep the carousel infinite */}
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage1.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Anna Dart</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage2.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Aoife O'Dwyer</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage3.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Delsol</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage4.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">ErikX</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage5.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Leslie A Spurlock</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage6.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Mike Fogg</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage7.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Nathan A Bauman</p>
-        </div>
-
-        <div className="relative">
-          <div
-            style={{
-              backgroundImage: `url(${carouselImage8.src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-            className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
-          />
-          <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Rich Armstrong</p>
-        </div>
+        {/* Original set */}
+        {items.map((item, index) => (
+          <CarouselItem key={`original-${index}`} {...item} />
+        ))}
+        {/* First duplicate set */}
+        {items.map((item, index) => (
+          <CarouselItem key={`duplicate1-${index}`} {...item} />
+        ))}
+        {/* Second duplicate set */}
+        {items.map((item, index) => (
+          <CarouselItem key={`duplicate2-${index}`} {...item} />
+        ))}
       </div>
     </div>
   );

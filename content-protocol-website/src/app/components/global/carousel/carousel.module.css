@@ -8,7 +8,8 @@
 .carousel {
   display: flex;
   gap: 1.25rem;
-  animation: scroll 60s linear infinite;
+  animation: scroll 30s linear infinite;
+  width: fit-content;
 }
 
 @media (max-width: 768px) {
@@ -22,6 +23,19 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-2968px);
+    /* Move by the width of 8 items (one full set) */
+    transform: translateX(calc(-8 * (312px + 1.25rem)));
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      /* Mobile width adjustment */
+      transform: translateX(calc(-8 * (187px + 0.75rem)));
+    }
   }
 }
