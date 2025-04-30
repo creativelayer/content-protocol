@@ -16,11 +16,11 @@ export default function Block7 ({ joinClickHandler }: Block7Props) {
           $CLTR Token
         </h4>
 
-        <p className="text-3xl text-[#4F6071] text-center px-8 md:px-64">
+        <p className="text-2xl md:text-3xl text-[#4F6071] text-center px-8 md:px-64">
           Creative Layer is powered by $CLTR, the protocol’s native utility token. Get rewarded – earn $CLTR for building, creating, consuming, and participating across the network and it’s ecosystem of applications.
         </p>
 
-        <p className="text-3xl text-[#4F6071] text-center px-8 md:px-64">
+        <p className="text-2xl md:text-3xl text-[#4F6071] text-center px-8 md:px-64">
           Coming Fall of 2025. Join the community and get rewarded early.
         </p>
       </div>

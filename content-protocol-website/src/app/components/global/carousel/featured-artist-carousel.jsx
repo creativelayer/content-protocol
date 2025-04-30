@@ -25,6 +25,7 @@ export default function FeaturedImageCarousel() {
             }}
             className="rounded-4xl flex-shrink-0 w-[187px] h-[250px] md:w-[312px] md:h-[416px]"
           />
+
           <p className="text-white text-center text-4xl font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Anna Dart</p>
         </div>
 

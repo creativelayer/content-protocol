@@ -20,7 +20,7 @@ export default function Hero ({ joinClickHandler }: HeroProps) {
         <h1 className="text-2xl md:text-4xl font-medium">Creative Layer Protocol</h1>
       </div>
 
-      <div className="flex flex-col gap-y-16 items-center ">
+      <div className="flex flex-col gap-y-8 md:gap-y-16 items-center ">
         <h2 className="text-4xl md:text-8xl text-center font-bold">
           Turn Creativity into Programmable Capital
         </h2>
