@@ -14,23 +14,21 @@ export default function Block2 ({ joinClickHandler }: HeroProps) {
 
   return (
     <section>
-      <div className="flex flex-col justify-between items-center px-8 md:px-56 gap-y-8">
-        <h2 className="text-white md:text-center text-4xl md:text-6xl font-bold">Build with tokenized media from the world’s top creators</h2>
-
-        <p className="text-white md:text-center text-2xl md:text-3xl md:px-4">
-          <span className="text-[#9CAFC0]">Develop apps on top of verified, onchain content — including</span> art, writing, music, and memes <span className="text-[#9CAFC0]">— from some of</span> the most innovative creators on the internet.
-        </p>
+      <div className="mb-8 md:mb-16">
+        <FeaturedArtistCarousel />
       </div>
 
-      <div className="mt-12 md:mt-24">
-        <FeaturedArtistCarousel />
+      <div className="flex justify-between items-center px-8 md:px-56">
+        <h2 className="text-4xl md:text-8xl text-center font-bold">
+          Creators like you have already earned over $150k
+        </h2>
       </div>
 
       <button
         onClick={handleJoinClick}
-        className="px-14 py-6 md:py-8 text-xl md:text-2xl bg-white text-black rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium mx-auto mt-12 md:mt-24"
+        className="px-14 py-6 md:py-8 text-xl md:text-2xl bg-black text-white rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium mx-auto mt-10 md:mt-20"
       >
-        Join the allowlist <ArrowRight />
+        Get early access <ArrowRight className="w-5 md:w-6 h-5 md:h-6 flex-shrink-0" />
       </button>
     </section>
   )
