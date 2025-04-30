@@ -4,7 +4,7 @@ import ArrowRight from '../icons/arrow-right'
 
 export default function Block11 () {
   return (
-      <div className="mt-16 md:mt-24 flex gap-x-8">
+      <div className="flex gap-x-8">
         <div className="space-y-16 w-1/2">
           <h3 className="text-4xl md:text-8xl px-8 md:px-28 font-bold">
             Used by Top Builders

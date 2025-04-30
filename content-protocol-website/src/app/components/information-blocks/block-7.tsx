@@ -1,10 +1,10 @@
 import ArrowRight from '@/app/components/icons/arrow-right'
 
-interface Block6Props {
+interface Block7Props {
   joinClickHandler: () => void
 }
 
-export default function Block7 ({ joinClickHandler }: Block6Props) {
+export default function Block7 ({ joinClickHandler }: Block7Props) {
   const handleJoinClick = () => {
     joinClickHandler()
   }
