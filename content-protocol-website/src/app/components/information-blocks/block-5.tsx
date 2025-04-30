@@ -3,12 +3,15 @@
 import Image from 'next/image'
 import ArrowRight from '../icons/arrow-right'
 
-import block5Image from '../../assets/information-blocks/Duels.png'
+import block5Image from '../../assets/information-blocks/CL_Header_Image.png'
 
 export default function Block5 () {
   return (
     <div>
-      <Image src={block5Image} alt="Block 5" className="md:px-16" />
+      <div className="md:mx-16">
+        <Image src={block5Image} alt="Iphone laying on a black couch showing a screenshot of the Culture Protocol app" className="w-full md:rounded-3xl" />
+      </div>
+
 
       <div className="mt-16 md:mt-48 flex flex-col md:flex-row gap-x-8">
         <div className="space-y-8 md:space-y-16 w-full md:w-1/2">

@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import ArrowRight from '../icons/arrow-right'
 
-import block6Image from '../../assets/information-blocks/Remx.png'
+import block6Image from '../../assets/information-blocks/CL_Duels_Image.png'
 
 interface Block6Props {
   joinClickHandler: () => void
@@ -16,7 +16,9 @@ export default function Block6 ({ joinClickHandler }: Block6Props) {
 
   return (
     <div>
-      <Image src={block6Image} alt="Block 6" className="md:px-16" />
+      <div className="md:mx-16">
+        <Image src={block6Image} alt="Block 6" className="w-full md:rounded-3xl" />
+      </div>
 
       <div className="mt-16 md:mt-24">
         <h2 className="font-bold text-4xl md:text-8xl px-8 md:px-28 text-center">
