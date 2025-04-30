@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        helvetica: ['Helvetica', 'Arial', 'sans-serif'],
+      },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
