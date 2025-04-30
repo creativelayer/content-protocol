@@ -6,10 +6,10 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      sans: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+    },
     extend: {
-      fontFamily: {
-        helvetica: ['Helvetica', 'Arial', 'sans-serif'],
-      },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },

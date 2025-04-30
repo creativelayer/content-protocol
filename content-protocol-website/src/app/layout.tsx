@@ -12,8 +12,8 @@ export default function RootLayout ({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="font-helvetica antialiased">
+    <html lang="en" style={{ fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif' }}>
+      <body className="antialiased">
         {children}
       </body>
     </html>
