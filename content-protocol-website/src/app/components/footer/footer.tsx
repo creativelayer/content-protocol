@@ -13,7 +13,7 @@ export default function Footer () {
       </h3>
 
       <p className="mt-16 md:mt-36 font-medium">
-        &copy; 2025 Creative Layer Protocol. All rights reserved.
+        2025 Creative Layer Protocol.
       </p>
     </div>
   )
