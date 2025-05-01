@@ -84,7 +84,7 @@ export default function AllowListModal ({ isOpen, onClose }: AllowListModalProps
           <h2 className="text-4xl md:text-6xl font-bold mb-4 text-black">Join Allowlist</h2>
 
           <p className="text-[#4F6071] mt-6 md:mt-9 text-xl md:text-3xl">
-            Be the first to access $CREATE token. Enter your email below to join the allowlist and secure your spot. You will be notified when the $CREATE token is nearing launch.
+            Be the first to access $CLTR token. Enter your email below to join the allowlist and secure your spot. You will be notified when the $CLTR token is nearing launch.
           </p>
 
           <PrivyModal onJoinClick={() => onClose()} />
