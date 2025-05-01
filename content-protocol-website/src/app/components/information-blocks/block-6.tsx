@@ -25,7 +25,7 @@ export default function Block6 ({ joinClickHandler }: Block6Props) {
           Apps like <span className="underline underline-offset-[12px]">Duels ⚔️</span> are driving novel onchain experiences
         </h2>
 
-        <div className="mt-10 md:mt-20 ml-8 md:ml-28">
+        <div className="mt-10 md:mt-20 md:ml-28">
           <button
             onClick={handleJoinClick}
             className="px-14 py-6 md:py-8 text-xl md:text-2xl bg-black text-white rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium mx-auto "
