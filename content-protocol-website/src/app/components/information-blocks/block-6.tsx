@@ -21,12 +21,12 @@ export default function Block6 () {
           Apps like <a href="https://warpcast.com/miniapps/039XHL8MJ9vD/duels" target="_blank" rel="noopener noreferrer" className="underline underline-offset-[12px] hover:no-underline">Duels ⚔️</a> are driving novel onchain experiences
         </h2>
 
-        <div className="mt-10 md:mt-20 md:ml-28">
+        <div className="mt-10 md:mt-20">
           <button
             onClick={handlePlayDuelsClick}
             className="px-14 py-6 md:py-8 text-xl md:text-2xl bg-black text-white rounded-full flex items-center gap-x-4 hover:cursor-pointer hover:-translate-y-px transition-all duration-300 font-medium mx-auto "
           >
-        Play Duels <ArrowRight className="w-5 md:w-6 h-5 md:h-6 flex-shrink-0" />
+            Play Duels <ArrowRight className="w-5 md:w-6 h-5 md:h-6 flex-shrink-0" />
           </button>
         </div>
       </div>
