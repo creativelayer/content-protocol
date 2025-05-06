@@ -78,7 +78,7 @@ export default function Home () {
         </section>
 
         <section className="mt-20 md:mt-40">
-          <Block6 joinClickHandler={() => setIsModalOpen(true)} />
+          <Block6 />
         </section>
 
         <section className="mt-20 md:mt-40">
