@@ -7,7 +7,7 @@ import block6Image from '../../assets/information-blocks/CL_Duels_Image.png'
 
 export default function Block6 () {
   const handlePlayDuelsClick = () => {
-    window.open('https://warpcast.com/miniapps/039XHL8MJ9vD/duels', '_blank')
+    window.open('https://warpcast.com/miniapps/Fagq8kkR_Va8/duels', '_blank')
   }
 
   return (
@@ -18,7 +18,7 @@ export default function Block6 () {
 
       <div className="mt-16 md:mt-24">
         <h2 className="font-bold text-4xl md:text-8xl px-8 md:px-28 text-center">
-          Apps like <a href="https://warpcast.com/miniapps/039XHL8MJ9vD/duels" target="_blank" rel="noopener noreferrer" className="underline underline-offset-[12px] hover:no-underline">Duels ⚔️</a> are driving novel onchain experiences
+          Apps like <a href="https://warpcast.com/miniapps/Fagq8kkR_Va8/duels" target="_blank" rel="noopener noreferrer" className="underline underline-offset-[12px] hover:no-underline">Duels ⚔️</a> are driving novel onchain experiences
         </h2>
 
         <div className="mt-10 md:mt-20">
